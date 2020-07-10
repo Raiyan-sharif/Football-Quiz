@@ -15,6 +15,9 @@ class GameOptionViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    override var preferredStatusBarStyle: UIStatusBarStyle{
+        return .lightContent
+    }
     
 
     /*
@@ -26,8 +29,21 @@ class GameOptionViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func hoem_btn_pressed(_ sender: Any) {
+    @IBAction func hoem_btn_pressed(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func play_game_level(_ sender: UIButton) {
+        print(sender.tag)
+        if(sender.tag == 1){
+            let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+            let nextViewController = storyBoard.instantiateViewController(withIdentifier: "GameLevelViewController") as! GameLevelViewController
+            nextViewController.modalPresentationStyle = .fullScreen
+            self.present(nextViewController, animated:true, completion:nil)
+        }
+
+    }
+    
+    
     
 }

@@ -15,6 +15,7 @@
 		1B5614E724B681EC00C2A360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5614E524B681EC00C2A360 /* LaunchScreen.storyboard */; };
 		1B5614EF24B69AA100C2A360 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614EE24B69AA100C2A360 /* SettingsViewController.swift */; };
 		1B5614F124B86C6900C2A360 /* GameOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614F024B86C6900C2A360 /* GameOptionViewController.swift */; };
+		1B5614F324B902D200C2A360 /* GameLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614F224B902D200C2A360 /* GameLevelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1B5614E824B681EC00C2A360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B5614EE24B69AA100C2A360 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1B5614F024B86C6900C2A360 /* GameOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOptionViewController.swift; sourceTree = "<group>"; };
+		1B5614F224B902D200C2A360 /* GameLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				1B5614E824B681EC00C2A360 /* Info.plist */,
 				1B5614EE24B69AA100C2A360 /* SettingsViewController.swift */,
 				1B5614F024B86C6900C2A360 /* GameOptionViewController.swift */,
+				1B5614F224B902D200C2A360 /* GameLevelViewController.swift */,
 			);
 			path = FootbalQuiz;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5614DF24B681E900C2A360 /* ViewController.swift in Sources */,
+				1B5614F324B902D200C2A360 /* GameLevelViewController.swift in Sources */,
 				1B5614DB24B681E900C2A360 /* AppDelegate.swift in Sources */,
 				1B5614F124B86C6900C2A360 /* GameOptionViewController.swift in Sources */,
 				1B5614DD24B681E900C2A360 /* SceneDelegate.swift in Sources */,
