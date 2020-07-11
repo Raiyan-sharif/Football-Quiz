@@ -16,6 +16,8 @@
 		1B5614EF24B69AA100C2A360 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614EE24B69AA100C2A360 /* SettingsViewController.swift */; };
 		1B5614F124B86C6900C2A360 /* GameOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614F024B86C6900C2A360 /* GameOptionViewController.swift */; };
 		1B5614F324B902D200C2A360 /* GameLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614F224B902D200C2A360 /* GameLevelViewController.swift */; };
+		1B5614F524B9C3BF00C2A360 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614F424B9C3BF00C2A360 /* BoardView.swift */; };
+		1B5614F724B9C46A00C2A360 /* FifteenBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614F624B9C46A00C2A360 /* FifteenBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1B5614EE24B69AA100C2A360 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1B5614F024B86C6900C2A360 /* GameOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOptionViewController.swift; sourceTree = "<group>"; };
 		1B5614F224B902D200C2A360 /* GameLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelViewController.swift; sourceTree = "<group>"; };
+		1B5614F424B9C3BF00C2A360 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		1B5614F624B9C46A00C2A360 /* FifteenBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifteenBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		1B5614D924B681E900C2A360 /* FootbalQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				1B5614F624B9C46A00C2A360 /* FifteenBoard.swift */,
 				1B5614DA24B681E900C2A360 /* AppDelegate.swift */,
 				1B5614DC24B681E900C2A360 /* SceneDelegate.swift */,
 				1B5614DE24B681E900C2A360 /* ViewController.swift */,
@@ -72,6 +77,7 @@
 				1B5614EE24B69AA100C2A360 /* SettingsViewController.swift */,
 				1B5614F024B86C6900C2A360 /* GameOptionViewController.swift */,
 				1B5614F224B902D200C2A360 /* GameLevelViewController.swift */,
+				1B5614F424B9C3BF00C2A360 /* BoardView.swift */,
 			);
 			path = FootbalQuiz;
 			sourceTree = "<group>";
@@ -147,11 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5614F524B9C3BF00C2A360 /* BoardView.swift in Sources */,
 				1B5614DF24B681E900C2A360 /* ViewController.swift in Sources */,
 				1B5614F324B902D200C2A360 /* GameLevelViewController.swift in Sources */,
 				1B5614DB24B681E900C2A360 /* AppDelegate.swift in Sources */,
 				1B5614F124B86C6900C2A360 /* GameOptionViewController.swift in Sources */,
 				1B5614DD24B681E900C2A360 /* SceneDelegate.swift in Sources */,
+				1B5614F724B9C46A00C2A360 /* FifteenBoard.swift in Sources */,
 				1B5614EF24B69AA100C2A360 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
