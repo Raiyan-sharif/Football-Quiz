@@ -36,6 +36,7 @@ class BoardView: UIView {
         for r in 0 ..< 4 {      // manually set the bounds, and of each tile
             for c in 0 ..< 4 {
                 let tile = board!.getTile(atRow: r, atColumn: c)
+                
                 if tile > 0 {
                     let button = self.viewWithTag(tile)
                     button!.bounds = tileBounds
@@ -52,6 +53,7 @@ class BoardView: UIView {
         
         for r in 0..<4 {
             for c in 0..<4 {
+                
                 let tile = board!.getTile(atRow: r, atColumn: c)
                 if tile > 0 {
                     let button = self.viewWithTag(tile) as! UIButton
@@ -62,7 +64,7 @@ class BoardView: UIView {
                         button.contentEdgeInsets = UIEdgeInsets.zero
                         //button.layoutMargins = UIEdgeInsets.zero
                         button.contentMode = .center
-                        button.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+                        button.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
                         //button.imageView?.contentMode = .scaleAspectFit
                         let convert : UIImage? = UIImage(named: String(tile))
                         button.setImage(convert, for: .normal)

@@ -28,10 +28,10 @@ import Foundation
 
 class FifteenBoard {
     var state : [[Int]] = [
-        [1, 2, 3, 4],
-        [5, 6, 7 ,8],
-        [9, 10, 11, 12],
-        [13, 14, 15, 0]  // 0 => empty
+        [1, 3, 0, 2],
+        [5, 6, 0 ,10],
+        [9, 8, 13, 4],
+        [7, 11, 0, 12]  // 0 => empty
     ]
 
     let rows = 4
@@ -69,6 +69,7 @@ class FifteenBoard {
     
     // Fetch the tile at the given position (0 is used for the space).
     func getTile(atRow r: Int, atColumn c: Int) -> Int {
+        
         return state[r][c]
     } // end getTile()
     
