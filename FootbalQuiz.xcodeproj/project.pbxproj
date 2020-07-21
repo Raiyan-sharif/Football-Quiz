@@ -18,6 +18,8 @@
 		1B5614F324B902D200C2A360 /* GameLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614F224B902D200C2A360 /* GameLevelViewController.swift */; };
 		1B5614F524B9C3BF00C2A360 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614F424B9C3BF00C2A360 /* BoardView.swift */; };
 		1B5614F724B9C46A00C2A360 /* FifteenBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5614F624B9C46A00C2A360 /* FifteenBoard.swift */; };
+		1B71B79F24C72E4300DCE78D /* Background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B71B79D24C72E4200DCE78D /* Background.mp3 */; };
+		1B71B7A024C72E4300DCE78D /* button1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B71B79E24C72E4300DCE78D /* button1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		1B5614F224B902D200C2A360 /* GameLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelViewController.swift; sourceTree = "<group>"; };
 		1B5614F424B9C3BF00C2A360 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		1B5614F624B9C46A00C2A360 /* FifteenBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifteenBoard.swift; sourceTree = "<group>"; };
+		1B71B79D24C72E4200DCE78D /* Background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Background.mp3; sourceTree = "<group>"; };
+		1B71B79E24C72E4300DCE78D /* button1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		1B5614CE24B681E900C2A360 = {
 			isa = PBXGroup;
 			children = (
+				1B71B79C24C72BEB00DCE78D /* Audio */,
 				1B5614D924B681E900C2A360 /* FootbalQuiz */,
 				1B5614D824B681E900C2A360 /* Products */,
 			);
@@ -80,6 +85,15 @@
 				1B5614F424B9C3BF00C2A360 /* BoardView.swift */,
 			);
 			path = FootbalQuiz;
+			sourceTree = "<group>";
+		};
+		1B71B79C24C72BEB00DCE78D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1B71B79D24C72E4200DCE78D /* Background.mp3 */,
+				1B71B79E24C72E4300DCE78D /* button1.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B71B79F24C72E4300DCE78D /* Background.mp3 in Resources */,
 				1B5614E724B681EC00C2A360 /* LaunchScreen.storyboard in Resources */,
 				1B5614E424B681EC00C2A360 /* Assets.xcassets in Resources */,
+				1B71B7A024C72E4300DCE78D /* button1.mp3 in Resources */,
 				1B5614E224B681E900C2A360 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
