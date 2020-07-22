@@ -125,6 +125,9 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tif-xu-g4Y">
                                                 <rect key="frame" x="202.5" y="0.0" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.49019607840000001" green="0.1450980392" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="toggleBtnPressed:" destination="11X-VN-l5w" eventType="valueChanged" id="vZP-BQ-ayy"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
